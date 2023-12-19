@@ -13,7 +13,7 @@ npm i @whyper/gcloud-functions-request-envelope
 Or, for Yarn users:
 
 ```
-yarn i @whyper/gcloud-functions-request-envelope
+yarn @whyper/gcloud-functions-request-envelope
 ```
 
 ### Available Request Functions
