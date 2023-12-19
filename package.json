@@ -1,0 +1,37 @@
+{
+  "name": "gcloud-functions-request-envelope",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": "A request facilitator for using the GCloud Functions (v2) in the easiest way, without loosing functionalities and facilitating the development",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": "https://github.com/WhyperTech/gcloud-functions-request-envelope.git",
+  "author": "Mateus Tozoni <mateus@whyper.tech>",
+  "license": "MIT",
+  "keywords": [
+    "gcloud",
+    "google functions",
+    "google cloud functions",
+    "middleware"
+  ],
+  "homepage": "https://github.com/WhyperTech/gcloud-functions-request-envelope/",
+  "bugs": "https://github.com/WhyperTech/gcloud-functions-request-envelope/issues",
+  "contributors": [
+    "Leonardo Hana Bersello <leonardomx111@gmail.com>"
+  ],
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0"
+  }
+}
